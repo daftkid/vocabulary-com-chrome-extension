@@ -19,6 +19,7 @@
             func: getSelection,
         },
         async (selection) => {
+            console.log("----> selection: ", selection);
             const selected_words = selection[0].result;
             const word = selected_words.trim().split(' ')[0];
             var url = `https://www.vocabulary.com/dictionary/${word}`

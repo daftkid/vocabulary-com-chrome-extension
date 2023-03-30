@@ -1,30 +1,55 @@
-body {
-	width: 400px;
-	color: #333;
-}
-
-#result {
+#vocabulary-extension-result-content {
 	font-family: "Open Sans";
+    width: 300px;
+    position: absolute;
+    box-sizing: border-box;
+    border: #545454;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    margin: 0px !important;
+    opacity: 1;
+    background-color: white;
+    overflow-y: auto;
+    padding: 5px;
+    z-index: 999999;
 }
 
-#result p.short {
-    font-size: 18px;
+#vocabulary-extension-result-content p {
+    color: black;
+    margin-top: 10px !important;
 }
 
-#result p.word-forms {
-    font-size: 18px;
-    color: #545454;
-    margin-bottom: 0.5em;
+#vocabulary-extension-result-content p.short {
+    font-size: 12px;
 }
 
-#result p.long {
-    font-size: 14px;
-    margin-bottom: 1.5em;
+#vocabulary-extension-result-content p.long {
+    font-size: 10px;
 }
 
-#result h1 {
+#vocabulary-extension-result-content h1 {
     color: #00578a;
     font-family: Merriweather,Impact,serif;
-    font-size: 38px;
+    font-size: 14px;
     font-weight: bold;
+    margin-bottom: 10px !important;
+}
+
+#vocabulary-extension-result-content_inner {
+    min-width: 200px;
+    min-height: 50px;
+    max-width: 400px;
+    display: inline;
+}
+
+button[id^='vocabulary-extension-sel-box'] {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    position: absolute;
+    background: url(https://cdn.vocab.com/images/favicons/favicon-32x32-2frmtt.png);
+    background-color: transparent;
+    border: none;
+    z-index: 9999999;
 }

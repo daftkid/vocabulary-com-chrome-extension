@@ -1,0 +1,30 @@
+body {
+	width: 400px;
+	color: #333;
+}
+
+#result {
+	font-family: "Open Sans";
+}
+
+#result p.short {
+    font-size: 18px;
+}
+
+#result p.word-forms {
+    font-size: 18px;
+    color: #545454;
+    margin-bottom: 0.5em;
+}
+
+#result p.long {
+    font-size: 14px;
+    margin-bottom: 1.5em;
+}
+
+#result h1 {
+    color: #00578a;
+    font-family: Merriweather,Impact,serif;
+    font-size: 38px;
+    font-weight: bold;
+}
